@@ -2,7 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-// IMPORTS FROM OTHER FILES
+// IMPORTS FROM OTHER FILE
 const authRouter = require("./routes/auth");
 const adminRouter = require("./routes/admin");
 const productRouter = require("./routes/product");
